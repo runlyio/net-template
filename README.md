@@ -22,3 +22,11 @@ dotnet run -- help
 > Note! The "--" argument shown in the samples here is only a construct of using the "dotnet run" command to separate arguments that should apply to the dotnet tool on the left from arguments that should be passed into the example application. If you run the compiled application itself, you will not need the "--" separator.
 
 Read more about [how to run jobs in your app](https://www.runly.io/docs/building/).
+
+### Running Tests
+
+Open terminal in the project root:
+
+```
+dotnet test
+```
