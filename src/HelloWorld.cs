@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MyJob
 {
-	// Quickstart guide to building a job: https://www.runly.io/docs/building/
+	// Quickstart guide to building a job: https://www.runly.io/docs/net/start/
 	// Dive deep into the anatomy of a Job: https://www.runly.io/docs/jobs/
 	public class HelloWorld : Job<HelloWorldConfig, string>
 	{
